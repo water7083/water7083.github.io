@@ -6,23 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
-    <p>Do you love meeee?</p>
-    <button onclick="myfunction1()">Yes</button>
-    <p id="yes"></p>
-    <button onclick="myfunction2()">No</button>
-    <p id="no"></p>
-
-    <script>
-        function myfunction1() {
-            document.getElementById("yes").innerHTML = "Love U =)";
-        }
-        function myfunction2() {
-            document.getElementById("no").innerHTML = "So sad QQ..";
-        }
-    </script>
+    <table style="background-color:lightblue">
+        <tr>
+            <td colspan="2" rowspan="2">監獄兔<br>困犯兩難</td>
+            <td colspan="2">基廉列克</td>
+        </tr>
+        <tr>
+            <td>招</td>
+            <td>不招</td>
+        </tr>
+        <tr>
+            <td rowspan="2">普亭</td>
+            <td>招</td>
+            <td>都關十年</td>
+            <td>關20年，死刑</td>
+        </tr>
+        <tr>
+            <td>不招</td>
+            <td>關20年，死刑</td>
+            <td>都不關</td>
+        </tr>
+    </table>
 </body>
 
 </html>
