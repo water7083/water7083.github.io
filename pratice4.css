@@ -1,0 +1,28 @@
+*{
+  box-sizing:border-box;
+}
+html,body,header,h1,div,p,a,img,contain{
+  margin:0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  height: 400px;
+  background-image:url("https://unsplash.it/1000/500/?image=700");
+  background-size:cover;
+  padding-top:320px;
+  padding-left:10px;
+  color:white;
+}
+.thumbnail img{
+  width: 100%;
+}
+.product{
+  /*在這邊product的width要用%設定，這樣圖片才會隨著視窗變大變小、不會掉到下面一行*/
+  width: 30%;
+  padding:20px;
+  float:left;
+}
+.description a{
+  float:right;
+}
