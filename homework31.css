@@ -1,0 +1,64 @@
+*{
+  box-sizing:border-box;
+}
+.iphone{
+  width: 245px;
+  height: 505px;
+  background-size:600px;
+  /*background-image:url("https://i.ebayimg.com/images/g/mWcAAOSwknJX0ItQ/s-l400.jpg"); 
+  */
+  background-position-x:-199px;
+  background-position-y:-47px;
+  background-repeat:no-repeat;
+  border:2px solid black;
+  border-radius:40px;
+  background-color:white;
+}
+.screen{
+  position:absolute;
+  left:20px;
+  width: 221px;
+  top:66px;
+  height: 390px;
+  /*border:2px solid yellow;*/
+  background-color:black;
+}
+.littlelens{
+  position:absolute;
+  width: 5px;
+  height: 5px;
+  /*border:1px solid red;*/
+  left:127px;
+  top:22px;
+  border-radius:50%;
+  background-color:black;
+}
+.lens{
+  position:absolute;
+  width: 9px;
+  height: 9px;
+  /*border:1px solid red;*/
+  left:86px;
+  top:36px;
+  border-radius:50%;
+  background-color:black;
+}
+.earpiece{
+  position:absolute;
+  width: 37px;
+  height: 3px;
+  /*border:1px solid red;*/
+  left:111px;
+  top:39px;
+  background-color:black;
+}
+.button{
+  position:absolute;
+  width: 40px;
+  height: 40px;
+  border:1px solid rgba(20,20,20,225);
+  left:110.5px;
+  top:461px;
+  border-radius:50%;
+  background-color:white;
+}
