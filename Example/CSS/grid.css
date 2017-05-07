@@ -1,0 +1,14 @@
+/*將col開頭的class視為網格*/
+[class^'col-']{
+    float:left;
+    /*網格與網格間的留白*/
+    padding-left:15px;
+    padding-right:15px;
+}
+/*手機版網格*/
+.col-xs-1{
+    /**/
+    width:calc(100%*1/12);
+    height: 300px;
+    background:1px solid blue;
+}
