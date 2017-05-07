@@ -1,26 +1,26 @@
-//建立混和器setup-grid、設定迴圈，讓程式碼可以適應各種大小螢幕
-@mixin setup-grid ($deviceName){
-    //讓SCSS迴圈
-    @for $i from 1 through 12{
-        //建立手機版網格
-        .col-#{$deviceName}-#{$i}{
-        width:calc(100%*#{$i}/12);
-        }
-    }
-} 
-//設定參數讓混和器setup-grid運作(記得加上;)
-
-//手機版網格
-@include setup-grid('xs');
-//平版網格
-@media screen and ( min-width:768px ){
-    @include setup-grid('sm');
-}
-//普通電腦螢幕網格
-@media screen and ( min-width:992px ){
-    @include setup-grid('md');
-}
-//大螢幕網格
-@media screen and ( min-width:1200px ){
-    @include setup-grid('lg');
-}
+//建立setup-grid混合器
+ @mixin setup-grid($deviceName) {
+     @for $i from 1 through 12 {
+         .col-#{$deviceName}-#{$i} {
+             width: calc( 100% * #{$i} / 12);
+         }
+     }
+ }
+ 
+ //使用setup-grid混合器
+ //手機版的網格
+ @include setup-grid('xs');
+ //平板的網格
+ @media screen and ( min-width:768px) {
+     @include setup-grid('sm');
+ }
+ 
+ //普通電腦螢幕的網格
+ @media screen and ( min-width:992px) {
+     @include setup-grid('md');
+ }
+ 
+ //大螢幕的網格
+ @media screen and ( min-width:1200px) {
+     @include setup-grid('lg');
+ }
