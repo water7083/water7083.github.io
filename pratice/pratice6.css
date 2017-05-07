@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    border:2px solid gray;
+    /*border:2px solid gray;*/
 }
 html,body,header,footer,section,h1,h2,h3,div,img,p,a,nav{
     margin:0;
