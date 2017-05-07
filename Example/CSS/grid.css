@@ -6,7 +6,7 @@
 }
 
 /*將col開頭的class視為網格*/
-[class^'col-']{
+[class^='col-']{
     float:left;
     /*網格與網格間的留白*/
     padding-left:15px;
