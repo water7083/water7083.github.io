@@ -16,3 +16,6 @@ section{
     padding-top:50px;
     padding-bottom:50px;
 }
+.project.icon>i.fa{
+    text-align: center;
+}
