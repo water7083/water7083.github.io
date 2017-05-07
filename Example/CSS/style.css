@@ -17,5 +17,6 @@ section{
     padding-bottom:50px;
 }
 .project.icon>i.fa{
+    display:block;
     text-align: center;
 }
