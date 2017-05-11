@@ -44,6 +44,9 @@ nav{
   position:fixed;
   background-color:white;
 }
+section{
+    background-color:black;
+}
 .container{
   /*沒有必要設定width跟height了 因為CSS已經設定好放大比例 如果再設定 畫面縮放會影響排版*/
   /* border:1px solid blue; */
