@@ -51,7 +51,7 @@ nav{
 }
 .int2{
     float:left;
-    background-color:paleturquoise;
+    background-color:peachpuff;
 }
 .container{
   /*沒有必要設定width跟height了 因為CSS已經設定好放大比例 如果再設定 畫面縮放會影響排版*/
